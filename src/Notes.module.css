@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
+    margin: 0;
 }
 
 .container {

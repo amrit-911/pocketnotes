@@ -40,12 +40,8 @@ notesGoesBottom.current?.scrollIntoView()
       setNewNotes({...newNotes, id:uuid() , color:e.target.value,content:[], date:[] })
   }
   const createNew = () =>{
-      
-      newNotes.title.trim()
-      newNotes.color.trim()
-      
     console.log("blank: ",newNotes.title)
-    if(newNotes.title.length>0 && newNotes.color.length>0){
+    if(newNotes.title.replace(/\s/g, "").length>0 && newNotes.color.length>0){
       console.log("added")
       setNotes([newNotes, ...notes])
       console.log("newNotes: ",newNotes)
@@ -75,8 +71,7 @@ const contentChange = (e)=>{
 }
  
 function sendClick(){
-  newContent.trim()
-  if(newContent.length>0){
+  if(newContent.replace(/\s/g, "").length>0){
     console.log(selectedNote)
     const updatedNotesArray = notes.map((item) =>{
       if(item.id === isActive){
