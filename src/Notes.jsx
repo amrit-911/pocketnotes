@@ -66,7 +66,7 @@ const isClicked = (item,index)=>{
  
 const contentChange = (e)=>{
   setNewContent( e.target.value)
-  setCurrentDate(moment().format('h:mm:ss a Do  MMMM YYYY'))
+  setCurrentDate(moment().format('h : mm : ss a Do  MMMM YYYY'))
   console.log(currentDate)
 }
  
