@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/pocketnotes/static/css/main.4230837a.css",
+    "main.js": "/pocketnotes/static/js/main.46d81a0f.js",
+    "static/js/787.765cfb16.chunk.js": "/pocketnotes/static/js/787.765cfb16.chunk.js",
+    "static/media/deleteIcon.png": "/pocketnotes/static/media/deleteIcon.c1f56b35300ba3e17b5b.png",
+    "static/media/back.png": "/pocketnotes/static/media/back.94cb3f8e260a2d3c172e.png",
+    "index.html": "/pocketnotes/index.html",
+    "main.4230837a.css.map": "/pocketnotes/static/css/main.4230837a.css.map",
+    "main.46d81a0f.js.map": "/pocketnotes/static/js/main.46d81a0f.js.map",
+    "787.765cfb16.chunk.js.map": "/pocketnotes/static/js/787.765cfb16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4230837a.css",
+    "static/js/main.46d81a0f.js"
+  ]
+}
